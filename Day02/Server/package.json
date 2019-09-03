@@ -1,0 +1,12 @@
+{
+  "name": "day2-test-server",
+  "version": "1.0.0",
+  "description": "NodeJS 2일차 테스트 서버",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Newbie",
+  "license": "ISC"
+}
