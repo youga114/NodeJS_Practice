@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>계정 생성</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+    <body>
+        <fieldset style="width: 300px">
+            <legend>계정 등록</legend>
+            <form action="/register" method="post">
+                <table>
+                    <tr>
+                        <td>사용자 ID : </td>
+                        <td><input type="text" name="userid"></td>
+                    </tr>
+
+                    <tr>
+                        <td>사용자 닉네임 : </td>
+                        <td><input type="text" name="nickname"></td>
+                    </tr>
+
+                    <tr>
+                        <td>사용자 암호 : </td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" value="가입"></td>
+                        <td><input type="reset" value="취소"></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </body>
+</html>
