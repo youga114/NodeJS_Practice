@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>EJS 테스트</title>
+    </head>
+    <body>
+        <h1><%= name %></h1>
+        <p><%= 52 * 273 %></p>
+        <hr />
+        <% for(var ix = 0; ix < 10; ++ix) { %> 
+            <h2><%= ix %>의 제곱: <%= ix * ix %></h2>
+        <% } %>
+    </body>
+</html>
